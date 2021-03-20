@@ -35,9 +35,9 @@ class Buttons extends React.Component {
 
     render() {
       return   ( <div>
-      <button className="Button" onClick={this.roll}> roll </button>
-      <button className="Button" onClick={this.hold}> hold </button>
-      <button className="Button" onClick={this.new}> new </button>
+      <button className="Button" onClick={this.roll}> ROLL </button>
+      <button className="Button" onClick={this.hold}> HOLD </button>
+      <button className="Button" onClick={this.new}> NEW </button>
  
       </div> ) }
   }

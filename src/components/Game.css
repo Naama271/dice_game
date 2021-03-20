@@ -1,5 +1,11 @@
-.Game{
-   
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.Game{ 
     background-color:rgb(255, 255, 255, 0.20);
 height: 80vh;
 display: flex;
@@ -17,6 +23,10 @@ width: 70vw;
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color:rgb(255, 255, 255, 0.40);
+    padding: 15px;
+    border-radius: 15px;
+    border-bottom: black 30px solid;
 }
 
 .Player{
@@ -57,7 +67,7 @@ width: 70vw;
     background-size: contain;
     background-repeat: no-repeat;
     float: left;
-    margin-left:5px ;
+    margin:5px ;
     
     font-size: 30px;
 
@@ -104,6 +114,7 @@ button{
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 5px;
+    font-weight: 700;
 }
 
 button:hover{
@@ -111,6 +122,12 @@ button:hover{
     cursor: pointer;
 }
 
-*{
-    border:1px blue solid ;
+input{
+  display: block; 
+width: 50%;
+background-color: black;
+color: cornsilk;
+margin-left: auto;
+margin-right: auto;
+
 }
