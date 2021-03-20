@@ -1,0 +1,116 @@
+.Game{
+   
+    background-color:rgb(255, 255, 255, 0.20);
+height: 80vh;
+display: flex;
+justify-content: center;
+align-items: center;
+padding-left: 20px;
+padding-right: 20px;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+width: 70vw;
+}
+
+.cubes{
+
+    margin: 30px;     
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Player{
+    background-image:url(../player-icon.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 150px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.score{
+    color:aliceblue;
+    font-size: 2rem;
+}
+
+.current_score{
+    color:rgb(28, 29, 29);
+    font-size: 1.5rem;
+   
+   background-color:aliceblue;
+   width: 50%;
+   border-radius: 5px;
+   margin-top: 15px;
+   text-align: center;
+}
+
+.Dice{
+    background-color: black ;
+    width: 60px;
+    height: 60px;
+    border: 1px solid aliceblue;
+    border-radius: 15px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    float: left;
+    margin-left:5px ;
+    
+    font-size: 30px;
+
+}
+
+.notactive{
+    opacity: 0.5;
+}
+
+
+h4{
+    color: aliceblue;
+    text-align: center;
+}
+
+.dice1{
+    background-image:url(../dice1.svg);
+}
+
+.dice2{
+    background-image:url(../dice2.svg);
+}
+
+.dice3{
+    background-image:url(../dice3.svg);
+}
+
+.dice4{
+    background-image:url(../dice4.svg);
+}
+
+.dice5{
+    background-image:url(../dice5.svg);
+}
+
+.dice6{
+    background-image:url(../dice6.svg);
+}
+
+button{
+    background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(255, 210, 75, 0.799) 67%);
+    padding: 10px 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5px;
+}
+
+button:hover{
+    background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(255, 210, 75, 0.1) 67%);
+    cursor: pointer;
+}
+
+*{
+    border:1px blue solid ;
+}
